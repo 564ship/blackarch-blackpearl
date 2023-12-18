@@ -1,0 +1,21 @@
+### See https://ja.opensuse.org/SUSE_Linux%E3%83%93%E3%83%AB%E3%83%89%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB
+### Short Summary of securty: 
+###     https://wiki.gentoo.org/wiki/Security_Handbook/Securing_services
+pam
+pambase
+file
+libbsd
+libinih
+linux-firmware
+linux-api-headers
+findutils
+gettext
+glib2
+popt
+rsync
+procps-ng
+jq
+icu
+bind
+unrar-free
+ctags

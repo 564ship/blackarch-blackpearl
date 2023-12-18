@@ -1,0 +1,16 @@
+### utilities from dwm
+nitrogen
+picom
+
+### plugins about dwm
+#dmenu
+#st
+
+### dwm
+dwm
+
+### xdg
+#xdg-desktop-portal-impl (not found why?)
+
+### term
+#xterm

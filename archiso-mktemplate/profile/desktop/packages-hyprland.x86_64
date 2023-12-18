@@ -1,0 +1,15 @@
+### utilities for hyprland
+#xremap-hypr-bin
+#waybar-hyprland-git
+
+### plugins for hyprland
+hyprpaper
+
+### hyprland
+hyprland
+
+### xdg
+xdg-desktop-portal-hyprland
+
+### term
+kitty

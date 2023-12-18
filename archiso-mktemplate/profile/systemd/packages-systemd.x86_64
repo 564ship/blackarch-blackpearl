@@ -1,0 +1,8 @@
+### See https://github.com/systemd/systemd/blob/main/meson.build
+### old days http://www.ep.sci.hokudai.ac.jp/~epcore/dvlop/y1999/TEBIKI.ep_sagyou.html
+### Deps will 'binutils' 'libc' 'coreutils' 'cc' 'make' 'psmisc'
+###     '(optional) iproute2' '(optional) sysklogd' ...plus 'cmake' 'meson' 'python'
+systemd
+systemd-libs
+systemd-sysvcompat
+systemd-resolvconf

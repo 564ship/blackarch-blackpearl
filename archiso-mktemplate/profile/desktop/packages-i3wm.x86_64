@@ -1,0 +1,19 @@
+### utilities from i3wm
+nitrogen
+picom
+
+### plugins about i3wm
+rofi
+#i3blocks
+#i3lock
+i3status
+
+### i3wm
+i3-wm
+
+### xdg
+#xdg-desktop-portal-impl (not found why?)
+
+### term
+#xterm
+#kitty

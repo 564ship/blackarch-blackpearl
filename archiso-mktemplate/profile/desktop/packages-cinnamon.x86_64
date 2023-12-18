@@ -1,0 +1,20 @@
+### utilities from cinnamon
+xed
+#xviewer
+#xplayer
+
+### plugins about cinnamon
+cinnamon-menus
+
+### cinnamon
+cinnamon-control-center
+cinnamon-desktop
+cinnamon-session
+cinnamon-settings-daemon
+
+### fallback
+#metacity
+##gnome-shell (why?)
+
+### xdg
+xdg-desktop-portal-xapp

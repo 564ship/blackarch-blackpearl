@@ -1,0 +1,17 @@
+### Templates (Not Tested)
+
+### installer
+##kwin
+##kwindowsystem5
+##kcrash5
+##yaml-cpp
+##calamares
+
+### from blackarch
+##blackarch-config-calamares
+
+### from alterlinux
+##alterlinux-calamares
+
+### DM if you required
+##lightdm

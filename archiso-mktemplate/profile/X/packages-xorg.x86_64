@@ -1,0 +1,7 @@
+### See https://docs.freebsd.org/en/books/handbook/x11
+### Find Weekly Issues https://wiki.ubuntu.com/UbuntuWeeklyNewsletter
+xorg-xinit
+xorg-server
+xorg-xhost
+xorg-xwayland
+wayland

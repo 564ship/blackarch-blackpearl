@@ -1,0 +1,44 @@
+### GStreamer
+##gst-libav
+##gst-plugins-bad
+##gst-plugins-bad-libs
+#gst-plugins-base
+#gst-plugins-base-libs
+#gst-plugins-good
+#gst-plugins-ugly
+
+### PATools
+pavucontrol
+pulsemixer
+
+### See https://archlinux.org/news/undone-replacement-of-pipewire-media-session-with-wireplumber
+jack2
+
+### PA
+
+### ^wireplumber
+#libwireplumber
+#wireplumber
+#pipewire
+
+### ^pipewire
+##gst-plugins-pipewire??
+#pipewire-pulse
+##pipewire-bluetooth??
+##pipewire-media-session(deprecated)
+#pipewire-alsa
+##pipewire-jack
+##pipewire-v4l2??
+##pipewire-x11-bell??
+##pipewire-zeroconf
+
+### ^pulseaudio
+##gst-plugins-piulseaudio??
+libpulse
+pulseaudio-bluetooth
+pulseaudio
+pulseaudio-alsa
+##pulseaudio-jack
+##pulseaudio-v4l2
+##pulseaudio-x11-bell??
+##pulseaudio-zeroconf

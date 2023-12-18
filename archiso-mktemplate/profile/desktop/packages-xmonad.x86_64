@@ -1,0 +1,17 @@
+### utilities from xmonad
+nitrogen
+picom
+
+### plugins about xmonad
+#dmenu
+#st
+
+## xmonad
+xmonad
+xmonad-contrib
+
+### xdg
+#xdg-desktop-portal-impl (not found why?)
+
+### term
+#xterm

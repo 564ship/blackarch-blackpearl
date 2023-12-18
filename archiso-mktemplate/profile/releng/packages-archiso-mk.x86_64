@@ -1,0 +1,20 @@
+### See https://wiki.archlinux.org/title/Kernel/Traditional_compilation
+archiso
+arch-install-scripts
+archinstall
+archlinux-keyring
+efibootmgr
+exfatprogs
+dkms
+hwdetect
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-busybox
+mkinitcpio-nfs-utils
+mkinitcpio-utils
+nbd
+pacman
+pv
+squashfs-tools
+syslinux
+gparted

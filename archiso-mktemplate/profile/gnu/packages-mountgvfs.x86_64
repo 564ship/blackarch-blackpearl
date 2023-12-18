@@ -1,0 +1,6 @@
+### See https://bbs.archlinux.org/viewtopic.php?id=163759
+### udisksctl.c https://github.com/storaged-project/udisks/blob/master/tools/udisksctl.c
+### man https://man.archlinux.org/man/udisksctl.1.en 
+udisks2
+udiskie
+gvfs

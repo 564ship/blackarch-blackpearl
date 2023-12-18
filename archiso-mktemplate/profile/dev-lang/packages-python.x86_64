@@ -1,0 +1,6 @@
+### See https://wiki.gentoo.org/wiki/Project:Python/python-exec
+python
+python-pip
+python-requests
+python-setuptools
+python-wheel
