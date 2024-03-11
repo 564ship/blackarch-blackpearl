@@ -1,0 +1,14 @@
+### Based on SlackBuilds
+
+### utilities from wayfire
+waybar
+wf-config
+wf-shell
+
+### wayfire
+wayfire
+
+### xdg
+#xdg-desktop-portal-gtk
+
+#wcm

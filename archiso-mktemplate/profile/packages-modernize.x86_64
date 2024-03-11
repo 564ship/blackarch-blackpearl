@@ -1,0 +1,114 @@
+### AUR
+yay
+
+### Thumbnail
+ffmpegthumbnailer
+
+### AI,3D
+##blender
+##povray
+#opentoonz
+##synfigstudio
+
+### RAW-Studio
+#darktable
+#rawtherapee
+
+### GeoTag
+#gottengeography
+
+### Exif-cleaner
+#mat2
+
+### Extension for cmus
+#clyrics
+
+### Tags&Lyrics
+##glyr
+##picard
+
+### MediaPlayer with-Browsing
+#exaile
+#deadbeef
+#sayonara-player
+
+### DJ player
+#mixxx
+#linux-show-player
+
+
+
+### SOME_IN_AUR
+
+### Colour,Palette
+#color-picker
+#xcolor
+#pastel
+
+### FontEdit
+#trufont
+
+### Upscaler
+#waifu2x-git
+
+### Illustration
+#azpainter
+#pinta
+#krita
+
+### Subdivision-model
+##wings3d
+
+### DAAP(iTunes,AirPlay,AppleRemote,Chromecast)
+#owntone-server
+
+### Webcam
+#webcamoid
+
+###Video Subtitle
+#gaupol
+#subtitleeditor
+
+### Trimming
+#losslesscut-bin
+##vidcutter
+
+### Composer
+#flowblade
+##lightworks
+#radium
+#shotcut
+#zrythm
+
+### Batch convert (also FLAC support)
+#freac
+#transmageddon
+
+### Editor
+##audacity
+##musescore
+##sonic-visualiser
+##sweep
+
+### Chip-tune MIDI tracker
+#furnace
+#klystack-git
+
+### Synthesiser
+#cabbage-bin
+#cardinal
+#hzzelm-synth
+#yoshimi
+
+### Programmed
+#chuck
+
+### Deps seems with Electron or Rust
+##nuclear-player-bin
+
+### Discord
+#discord
+
+### Spotify
+#spotify
+##ncspot-bin

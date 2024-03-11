@@ -1,0 +1,21 @@
+### utilities from mate
+pluma
+eom
+smplayer
+
+### plugins about mate
+mozo
+
+### mate
+mate-control-center
+caja
+#mate-menu
+#mate-tweak
+mate-panel
+mate-session-manager
+mate-settings-daemon
+mate-desktop
+marco
+
+### xdg
+xdg-desktop-portal-xapp

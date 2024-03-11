@@ -1,0 +1,34 @@
+### utilities from xfce4
+mousepad
+ristretto
+parole
+
+### plugins about xfce4
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-datetime-plugin
+xfce4-whiskermenu-plugin
+xfce4-pulseaudio-plugin
+
+### xfce4
+libxfce4ui
+exo
+garcon
+thunar
+thunar-volman
+xfconf
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfce4-clipman-plugin
+xfce4-screenshooter
+xfdesktop
+xfwm4
+
+### xdg
+xdg-desktop-portal-xapp
+
+### indicator
+#xfce4-notifyd

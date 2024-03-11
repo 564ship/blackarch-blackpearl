@@ -1,0 +1,28 @@
+### utilities from kdeplasma
+#ksysguard
+kate
+partitionmanager
+#filelight
+#kbackup
+
+### plugins about kdeplasma
+#plasma-nm
+#plasma-firewall
+#kdenetwork-filesharing
+#plasma-pa
+
+### kdeplasma
+plasma-meta
+dolphin
+konsole
+kde-gtk-config
+ark
+##kdeplasma-addons
+
+### xdg
+xdg-desktop-portal-kde
+
+#bluedevil
+
+#sddm
+#sddm-kcm

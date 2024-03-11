@@ -1,0 +1,7 @@
+### See https://wiki.gentoo.org/wiki/GnuPG
+wget
+ca-certificates
+ca-certificates-utils
+p11-kit
+gnupg-pkcs11-scd
+gpgme

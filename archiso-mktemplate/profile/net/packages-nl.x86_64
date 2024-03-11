@@ -1,0 +1,11 @@
+### See https://www.infradead.org/~tgr/libnl
+libnl
+libmnl
+libnetfilter_conntrack
+libnfnetlink
+libnftnl
+ethtool
+iproute2
+ipset
+iputils
+network-manager-applet

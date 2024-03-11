@@ -1,0 +1,113 @@
+name: Build BlackArch Linux (blackpearl-rawhide) iso Image
+
+on:
+  pull_request:
+    branches: [ master ]
+
+  schedule:
+    - cron: '0 2,12 * */4 *'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux:latest
+      volumes:
+        - /github/home:/root/home
+      options: "--privileged"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Modify local pacman.conf
+        run: |
+          cp ./archiso/airootfs/etc/pacman.conf /etc/pacman.conf ;
+
+      - name: Install Required Packages
+        run: |
+          ./archreq-pkgs.sh ;
+
+      - name: Information about running specs
+        run: |
+          uname -a 2> /dev/null ||true ;
+          lspci -v |grep VGA 2> /dev/null ||true ;
+          lspci -v |grep Ethernet 2> /dev/null ||true ;
+          lspci -v |grep Audio 2> /dev/null ||true ;
+          cat /proc/cpuinfo 2> /dev/null ||true ;
+          lscpu 2> /dev/null ||true ;
+          neofetch 2> /dev/null ||true ;
+          free -tm 2> /dev/null ||true ;
+          lsblk 2> /dev/null ||true ;
+          lsusb -v 2> /dev/null ||true ;
+          lspci -v 2> /dev/null ||true ;
+          gcc -march=native -Q --help=target 2> /dev/null || true ;
+          lshw -short 2> /dev/null || true ;
+
+      - name: Only local sync DB, Clean pacman cache (save 500MiB~1GiB for docker workspace)
+        run: |
+          pacman -Scc ;
+          rm -rf /var/lib/pacman/sync ;
+          pacman -Syy ;
+
+      - name: update cacert from curl.haxx.se
+        run: |
+          #mkdir -p ./out ;
+          wget -O ./out/cacert_$(date +%Y_%m%d_%H).pem http://curl.haxx.se/ca/cacert.pem
+          rsync -a ./out/cacert*.pem /etc/ssl/certs/ca-certificates.crt ;
+
+      - name: get latest gentoo admincd & stage3 tar
+        run: |
+          #mkdir -p ./out ;
+          wget -P ./out https://ftp.iij.ad.jp/pub/linux/gentoo/releases/amd64/autobuilds/$(curl -s https://ftp.iij.ad.jp/pub/linux/gentoo/releases/amd64/autobuilds/latest-stage3-amd64-llvm-systemd-mergedusr.txt |grep 'stage*-*' |cut -d' ' -f1) ;
+
+      - name: Build BlackArch Linux (runs archiso)
+        run: |
+          #mkdir -p ./out ;
+          ./build.sh ;
+          # after then delete geq 1900(MiB)
+          find . -mindepth 1 -type f -size +1900M -delete 2> /dev/null ||true ;
+
+      - name: Upload artifact (out/*)
+        uses: actions/upload-artifact@v4
+        with:
+          name: assets-for-download
+          path: out
+
+      - name: Remove out (out/*.iso)
+        run: |
+          rm -rf ./out ;
+
+  release:
+    runs-on: ubuntu-latest
+    needs: [ build ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: label
+        id: label
+        run: |
+          echo "tag_name=rawhide-$(echo "$(date +'%s' | cut -c 1-6)00000")" >> $GITHUB_OUTPUT ;
+          echo "name=$(date)" >> $GITHUB_OUTPUT ;
+          echo "body=$(echo "Used VM built on $(uname -a)")" >> $GITHUB_OUTPUT ;
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: assets-for-download
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.label.outputs.tag_name }}
+          name: ${{ steps.label.outputs.name }}
+          body: ${{ steps.label.outputs.body }}
+          draft: false
+          prerelease: false
+          files: |
+           out/cacert*.pem
+           out/stage*-*
+           out/[0-z]*.iso

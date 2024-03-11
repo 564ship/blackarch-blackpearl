@@ -1,0 +1,23 @@
+### toolchain
+bison
+flex
+gettext
+make
+binutils
+groff
+gcc
+texinfo
+autoconf
+automake
+libtool
+m4
+pkgconf
+asciidoc
+cmake
+ninja
+openssh
+neovim
+crosstool-ng
+rust
+#cargo
+#rustup

@@ -1,0 +1,16 @@
+### utilities from sway
+nitrogen
+picom
+
+### plugins about xfce4
+rofi
+swayidle
+
+### sway
+sway
+
+### xdg
+#xdg-desktop-portal-wlr
+
+### term
+#kitty

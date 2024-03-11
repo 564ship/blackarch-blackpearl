@@ -1,0 +1,12 @@
+### utilities from openbox
+tint2
+picom
+dunst
+mpd
+plank
+
+### openbox
+openbox
+
+### xdg
+#xdg-desktop-portal-gtk

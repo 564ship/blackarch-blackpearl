@@ -1,0 +1,24 @@
+### Templates (Not Tested)
+
+### installer
+kwin
+yaml-cpp
+
+### from arch-linux-calamares-installer
+#alci-calamares
+#alci-calamares-config
+#alci-calamares-config-pure
+#alci-calamares-config-xanmod
+#alci-calamares-config-zen
+
+### (flavorless)
+#calamares
+
+### from blackarch
+##blackarch-config-calamares
+
+### from alterlinux
+##alterlinux-calamares
+
+### DM if you required
+##lightdm

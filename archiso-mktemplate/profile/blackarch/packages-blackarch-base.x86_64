@@ -1,0 +1,13 @@
+### blackarch configuration
+blackarch-config-bash
+blackarch-config-cursor
+blackarch-config-gtk
+blackarch-config-icons
+blackarch-config-xfce
+blackarch-config-zsh
+blackarch-keyring
+blackarch-mirrorlist
+blackarch-menus
+blackarch-wallpaper
+blackmate
+zsh

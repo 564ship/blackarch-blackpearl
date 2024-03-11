@@ -1,0 +1,56 @@
+
+
+
+                                                                    00
+                                                                    11
+                                                                   ====
+                                                                   .//
+                                                                  `o//:
+                                                                 `+o//o:
+                                                                `+oo//oo:
+                                                                -+oo//oo+:
+                                                              `/:-:+//ooo+:
+                                                             `/+++++//+++++:
+                                                            `/++++++//++++++:
+                                                           `/+++oooo//ooooooo/`
+                                                          ./ooosssso//osssssso+`
+                                                         .oossssso-`//`/ossssss+`
+                                                        -osssssso.  //  :ssssssso.
+                                                       :osssssss/   //   osssso+++.
+                                                      /ossssssss/   //   +ssssooo/-
+                                                    `/ossssso+/:-   //   -:/+osssso+-
+                                                   `+sso+:-`        //       `.-/+oso:
+                                                  `++:.             //            `-/+/
+                                                  .`                /                `/
+
+                                    __________ .__                    __                           .__
+                                   \______   \|  |  _____     ____  |  | _______  _______   ____  |  |__
+                                    |    |  _/|  |  \__  \  _/ ___\ |  |/ /\__  \ \_  __ \_/ ___\ |  |  \
+                                    |    |   \|  |__ / __ \_\  \___ |    <  / __ \_|  | \/\  \___ |   Y  \
+                                    |______  /|____/(____  / \___  >|__|_ \(____  /|__|    \___  >|___|  /
+                                           \/            \/      \/      \/     \/             \/      \/
+
+
+
+                                   is a lightweight, compatible with Arch Linux <https://blackarch.org>
+
+
+
+                                                                   user:      'liveuser'
+                                                                   password : 'blackarch'
+                                                                   when we compiled with calamares
+
+                                   Default root account should,
+                                                                   user:      'root'
+                                                                   password:  'blackarch'
+
+                                   type your XOrg/Wayland session manually! (I don't care.)
+
+                                   try to Manually launch audio services e.g,
+                                   ( 'pulseaudio' 'pipewire' ( 'pipewire-alsa' ) 'wireplumber' )
+                                                                      if you logged in as root.
+
+                                   In other cases like Wayland, please contact administrators.
+
+                                   ------------------==[ BlackArch Linux \r on \l ]==------------------
+

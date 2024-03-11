@@ -1,0 +1,12 @@
+vendor_id	: VirtualApple
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant : 0x2
+CPU part    : 0xd08
+CPU revision    : 3
+cache size	: 4096 KB
+flags       : fp asimd evtstrm aes pmull sha1 sha2 crc32
+bogomips	: 10801.09
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:

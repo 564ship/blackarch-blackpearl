@@ -1,0 +1,31 @@
+### Contained AUR (some unusual)
+##tor-browser
+##firefox-nightly-en-us
+##firefox-nightly-ja
+##firefox-nightly-zh-cn
+##firefox-esr
+##firefox-nightly
+##firefox-wayland-hg
+##firefox-developer-edition
+##firefox-bin
+firefox-beta-bin
+##floorp
+
+### ArchLinux Build
+##netsurf
+##nyxt
+##w3m
+##eolie
+##midori
+##chromium
+#firefox
+##vivaldi
+##vivaldi-ffmpeg-codecs
+
+### Browser from GNOME with optional-deps
+##aspell
+##enchant
+##hunspell
+##nuspell
+##libvoikko
+#epiphany

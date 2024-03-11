@@ -1,0 +1,50 @@
+### To run fascode-live-tools on lxde session
+python-pyxdg
+
+### icon
+papirus-icon-theme
+
+### theme
+adapta-gtk-theme
+materia-gtk-theme
+
+### pacman
+#alterlinux-keyring
+alterlinux-mirrorlist
+
+### file permissions with PAM-fixes
+#alterlinux-filesystem
+
+### Asian Input
+#alterlinux-fcitx-conf
+
+### medit
+alterlinux-medit-themes
+
+### customize
+#lightdm-webkit2-greeter
+#lightdm-webkit2-theme-alter
+#plymouth
+#plymouth-theme-alter-logo-git
+
+### desktop-utils
+alterlinux-wallpapers
+alterlinux-desktop-file
+
+### i3wm
+#alterlinux-i3-manager
+
+### kdeplasma
+#alterlinux-plasmalnf
+
+### PKGS-buildsystem
+#ayaka
+
+### welcome
+alterlinux-welcome-page
+
+### live environment
+alterlinux-live-info
+
+### bootloader
+#grub-theme-vimix-alter

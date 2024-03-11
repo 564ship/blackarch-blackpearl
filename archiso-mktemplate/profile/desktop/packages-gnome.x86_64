@@ -1,0 +1,46 @@
+### utilities from gnome
+gnome-boxes
+gnome-calculator
+gnome-calendar
+gnome-disk-utility
+gedit
+sushi
+
+### plugins about gnome
+gnome-keyring
+gnome-shell
+gnome-shell-extensions
+gnome-system-monitor
+gnome-logs
+
+### gnome
+gnome-common
+gnome-backgrounds
+mutter
+nautilus
+gnome-menus
+gnome-session
+gnome-settings-daemon
+gnome-terminal
+gnome-screenshot
+gnome-desktop
+xfwm4
+
+### xdg
+xdg-desktop-portal-gnome
+
+### other
+##gnome-bluetooth
+##gnome-epub-thumbnailer
+
+### indicator
+gnome-shell-extension-appindicator
+
+### gnome-extra
+dconf-editor
+gnome-tweaks
+
+### remote
+#gnome-remote-desktop
+
+#gdm

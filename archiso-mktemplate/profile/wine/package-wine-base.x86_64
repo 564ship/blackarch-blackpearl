@@ -1,0 +1,9 @@
+### Running Windows executables
+cabextract
+gobject-introspection
+mesa-utils
+mesa
+wine
+winetricks
+wine-gecko
+wine-mono

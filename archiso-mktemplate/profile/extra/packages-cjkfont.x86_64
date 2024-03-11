@@ -1,0 +1,5 @@
+### fallback Asian fonts ('adobe*' 'noto-fonts-cjk' unwanted)
+otf-ipaexfont
+#ttf-sazanami
+ttf-baekmuk
+wqy-microhei

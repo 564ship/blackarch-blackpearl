@@ -1,0 +1,26 @@
+### utilities from lxde
+##gpicview
+#lxmusic
+
+### plugins about lxde
+lxhotkey
+lxinput
+lxlauncher
+
+### lxde
+lxtask
+pcmanfm
+lxappearance
+lxappearance-obconf
+lxde-icon-theme
+lxpanel
+lxrandr
+lxsession
+lxterminal
+lxde-common
+openbox
+
+### xdg
+#(no)
+
+#lxdm
